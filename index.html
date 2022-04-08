@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gradient Text</title>
+    <title>Welcome to Northern-Server</title>
+    <script>
+    function Redirect() {
+        window.location = "https://buryackov-ivan.github.io/Northern-Server/"
+    }
+    </script>
 
     <style>
         body{
@@ -73,6 +78,8 @@
 </head>
 <body>
     <h1 class="gradient">NORTHERN SERVER</h1>
-    <a class="gradient2" href="https://buryackov-ivan.github.io/Northern-Server/">Click here :)</a>
+    <!-- Ссылка сделана так, чтобы не выводилась... -->
+    <a class="gradient2" onclick="Redirect();" onclick="window.open(this.dataset.href)">Click here :)</a>
+    <!-- data-href="https://buryackov-ivan.github.io/Northern-Server/" onclick="window.open(this.dataset.href)" -->
 </body>
 </html>
